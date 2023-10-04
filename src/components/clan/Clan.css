@@ -1,0 +1,48 @@
+table.infoboxtable {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    width: 250px;
+    min-width: 10%;
+    max-width: 50%;
+    float: right;
+  }
+  
+  table.infoboxtable th {
+    text-align: center;
+    color: #000000;
+    background: #00CD00;
+  }
+  
+  table.infoboxtable td {
+    border: 1px solid #000000;
+    padding: 4px;
+    background-color: #fff;
+  }
+  
+  table.infoboxtable a {
+    text-decoration: none;
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  /* Clan.css */
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Равное распределение пространства между элементами */
+  }
+  
+  .text-container {
+    flex: 1; /* Занимает оставшееся пространство по ширине */
+  }
+  
+  .infoboxtable {
+    width: 250px; /* Ширина таблицы */
+    margin-left: 20px; /* Отступ слева для таблицы */
+    float: right;
+    clear: right;
+  }
+  

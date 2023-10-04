@@ -1,0 +1,33 @@
+.post-container {
+  border: 2px solid #3579f6; /* Увеличиваем толщину рамки и изменяем цвет на синий */
+  border-radius: 8px; /* Добавляем скругление углов */
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+  /* background: linear-gradient(to right, #ffffcc, #ffcc00); */
+  color: #000
+}
+  
+  .post-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .post-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .post-details {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+  .post-hidden {
+    display: none;
+  }
+  
